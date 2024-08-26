@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Your-Form</title>
+  </head>
+  <body>
+    <div id="form-container">
+      <form action="">
+        <div id="input-container">
+          <label for="first-name-input">First Name :</label>
+          <input type="text" id="first-name-input" />
+          <div class="invalid" id="fname-invalid">
+            insert a name of max 10 characters
+          </div>
+        </div>
+        <div id="input-container">
+          <label for="last-name-input">Last Name :</label>
+          <input type="text" id="last-name-input" />
+          <div class="invalid" id="lname-invalid">
+            insert a name of max 10 characters
+          </div>
+        </div>
+        <div id="input-container">
+          <label for="email-input">Email :</label>
+          <input type="email" id="email-input" />
+          <div class="invalid" id="email-invalid">
+            insert an email of suitable form
+          </div>
+        </div>
+
+        <div id="input-container">
+          <label for="pass-input">Password :</label>
+          <input type="password" id="pass-input" />
+          <div class="invalid" id="pass-invalid">
+            insert a password of known criteria
+          </div>
+        </div>
+        <div id="input-container">
+          <label for="confirm-pass-input">Confirm Password :</label>
+          <input type="password" id="confirm-pass-input" />
+          <div class="invalid" id="confirm-pass-invalid">
+            Not a Matched Password
+          </div>
+        </div>
+        <div id="input-container">
+          <label for="tele-input">Phone Number :</label>
+          <input type="number" id="tele-input" />
+          <div class="invalid" id="tele-invalid">not a valid number</div>
+        </div>
+        <div id="input-container">
+          <label for="file-input">User image :</label>
+          <input type="file" id="file-input" />
+          <div id="alert">accept only png and jpg files</div>
+        </div>
+        <button id="formbutton">Submit</button>
+      </form>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
